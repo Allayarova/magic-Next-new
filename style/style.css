@@ -319,8 +319,7 @@ p {
   height: 40px;
 }
 
-.div{
-
+.div {
 }
 
 .grid__images {
@@ -348,7 +347,6 @@ p {
   background-image: url(../img/gal-2.jpeg);
   grid-column: 3 / span 3;
   grid-row: 1 / span 3;
-
 }
 
 .grid__img-3 {
@@ -428,15 +426,43 @@ p {
   grid-row: 6 / span 2;
 }
 
-.left__grid{
+.left__grid {
   float: left;
   width: 57px;
   height: 490px;
 }
 
-.foooter{
+.foooter {
   background-color: rgb(16, 29, 44);
-  width: 100%;
+  max-width: 100%;
   height: 250px;
   margin-top: 10px;
+}
+
+.footer__h3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer__h3 h3 {
+  color: white;
+  font-size: 19px;
+  font-family: Calibri;
+  text-align: center;
+  margin-top: 80px;
+  font-weight: 400;
+}
+
+.footer__p{
+  display: flex;
+  justify-content: center;
+  width: 900px;
+}
+
+
+.footer__p p {
+  font-size: 14px;
+  color: white;
+  margin-top: 50px;
 }
