@@ -319,8 +319,6 @@ p {
   height: 40px;
 }
 
-.div {
-}
 
 .grid__images {
   display: grid;
@@ -458,11 +456,14 @@ p {
   display: flex;
   justify-content: center;
   width: 900px;
+  margin-left: 200px;
+  text-align: center;
 }
 
 
 .footer__p p {
   font-size: 14px;
   color: white;
-  margin-top: 50px;
+  margin-top: 70px;
 }
+
